@@ -25,7 +25,18 @@ const runApp = async () => {
   searchInput.removeAttribute("maxlength");
   const letterCounter = await waitForElement(secondRoot, ".letter-counter");
   letterCounter.innerHTML = "Unlimited characters by riad-azz";
-  console.log("Character limit was removed.");
+
+  const observer = new MutationObserver((mutationsList) => {
+    for (const mutation of mutationsList) {
+      if (mutation.type === "childList") {
+        runApp();
+        observer.disconnect();
+      }
+    }
+  });
+
+  observer.observe(document.body, { childList: true });
 };
 
 runApp();
+console.log("Character limit was removed.");
