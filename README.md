@@ -28,10 +28,10 @@ git clone https://github.com/riad-azz/youtube-to-mp3.git
 
 ![Extension preview image](screenshots/sc-01.png)
 
-### Disclaimer
+## Disclaimer
 
 **The maximum characters i tested was 10k and i got a pretty decent and accurate response, this may remove the character limit but AI might malfunction based on how long your request will be.**
 
-### License
+## License
 
 This project is licensed under the [MIT] License - see the LICENSE.md file for details
