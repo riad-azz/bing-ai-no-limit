@@ -13,7 +13,7 @@ An extension that removes character limit for Bing AI search it helps you bypass
 - Clone the repository or download the zip file and extract it
 
 ```bash
-git clone https://github.com/riad-azz/youtube-to-mp3.git
+git clone https://github.com/riad-azz/bing-ai-no-limit.git
 ```
 
 - Open your edge browser and head to `edge://extensions/`
