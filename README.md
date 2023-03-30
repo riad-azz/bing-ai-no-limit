@@ -4,8 +4,6 @@ Remove the character limit for Bing AI search.
 
 ## Description
 
-![Extension preview image](icons/icon-16.png) Bing AI No Limit
-
 An extension that removes character limit for Bing AI search it helps you bypasses the default limit of 2000 characters and enables you to interact with Bing AI more freely and comprehensively. The extension is compatible with Microsoft Edge but it should work on other browsers too if you managed to make the search work on them.
 
 ## Getting Started
