@@ -10,6 +10,8 @@ An extension that removes character limit for Bing AI search it helps you bypass
 
 ## Installation
 
+_Note: This works on the stable channel but other channels (Beta, Dev, Canary) might cause the extension to not work._
+
 - Clone the repository or download the zip file and extract it
 
 ```bash
