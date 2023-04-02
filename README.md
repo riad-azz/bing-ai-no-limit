@@ -10,8 +10,6 @@ An extension that removes character limit for Bing AI search it helps you bypass
 
 ## Installation
 
-_Note: This works on the stable channel (Last tested version 111.0.1661.62) but other channels (Beta, Dev, Canary) might cause the extension to not work._
-
 - Clone the repository or download the zip file and extract it
 
 ```bash
@@ -33,6 +31,8 @@ git clone https://github.com/riad-azz/bing-ai-no-limit.git
 ## Disclaimer
 
 **The maximum characters i tested was 10k and i got a pretty decent and accurate response, this may remove the character limit but AI might malfunction based on how long your request will be.**
+
+#### Note : If the limit is back after starting a new topic or the AI freezing, just refresh the page `F5` and the limit will be lifted again.
 
 ## License
 
