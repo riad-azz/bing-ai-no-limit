@@ -1,4 +1,4 @@
-# Bing No Chracter Limit
+# Bing No Character Limit
 
 Remove the character limit for Bing AI search.
 
