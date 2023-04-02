@@ -16,7 +16,7 @@ async function waitForElement(parent, selector) {
   });
 }
 
-const runApp = async () => {
+const removeLimitation = async () => {
   const mainHost = await waitForElement(document, ".cib-serp-main");
   const mainRoot = mainHost.shadowRoot;
   const secondHost = await waitForElement(mainRoot, "#cib-action-bar-main");
@@ -25,18 +25,18 @@ const runApp = async () => {
   searchInput.removeAttribute("maxlength");
   const letterCounter = await waitForElement(secondRoot, ".letter-counter");
   letterCounter.innerHTML = "Unlimited characters by riad-azz";
+  console.log("Character limit was removed.");
 
   const observer = new MutationObserver((mutationsList) => {
     for (const mutation of mutationsList) {
-      if (mutation.type === "childList") {
-        runApp();
+      if (!searchInput.isConnected) {
+        removeLimitation();
         observer.disconnect();
       }
     }
   });
 
-  observer.observe(document.body, { childList: true });
+  observer.observe(secondRoot, { childList: true });
 };
 
-runApp();
-console.log("Character limit was removed.");
+removeLimitation();
