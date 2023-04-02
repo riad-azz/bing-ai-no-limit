@@ -30,9 +30,9 @@ git clone https://github.com/riad-azz/bing-ai-no-limit.git
 
 ## Disclaimer
 
-**The maximum characters i tested was 10k and i got a pretty decent and accurate response, this may remove the character limit but AI might malfunction based on how long your request will be.**
+The maximum characters i tested was 10k and i got a pretty decent and accurate response, this may remove the character limit but AI might malfunction based on how long your request will be.
 
-#### Note : If the limit is back after starting a new topic or the AI freezing, just refresh the page `F5` and the limit will be lifted again.
+**_Note : If the limit is back after starting a new topic or the AI freezing, just refresh the page `F5` and the limit will be lifted again._**
 
 ## License
 
