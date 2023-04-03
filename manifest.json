@@ -12,7 +12,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.bing.com/search?form=*"],
+      "matches": ["https://www.bing.com/search?*"],
       "js": ["scripts/content.js"],
       "run_at": "document_idle"
     }
