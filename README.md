@@ -10,21 +10,21 @@ An extension that removes character limit for Bing AI search it helps you bypass
 
 ## Installation
 
-- Clone the repository or download the zip file and extract it
+1. Clone the repository or download the zip file and extract it
 
 ```bash
 git clone https://github.com/riad-azz/bing-ai-no-limit.git
 ```
 
-- Open your edge browser and head to `edge://extensions/`
+2. Open your edge browser and head to `edge://extensions/`
 
 ![Extension preview image](screenshots/sc-02.png)
 
-- After activating "Developer mode" and clicking "Load unpacked" select the repository folder that you downloaded or cloned and you should be all good!
+3. After activating "Developer mode" and clicking "Load unpacked" select the repository folder that you downloaded or cloned and you should be all good!
 
 ### Extension Preview
 
-- If your installation was successful you should be able to write with no limitations
+If your installation was successful you should be able to write with no limitations
 
 ![Extension preview image](screenshots/sc-01.png)
 
