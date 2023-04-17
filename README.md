@@ -1,6 +1,6 @@
 # Bing No Character Limit
 
-Remove the character limit for Bing AI search.
+Bypass the 2000 characters limit from Bing AI search with a very simple and small extension.
 
 ## Description
 
