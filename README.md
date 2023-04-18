@@ -18,7 +18,7 @@ git clone https://github.com/riad-azz/bing-ai-no-limit.git
 
 2. Open your edge browser and head to `edge://extensions/`
 
-![Extension preview image](screenshots/sc-02.png)
+![Extension preview image](https://github.com/riad-azz/readme-storage/blob/main/bing-ai-no-limit/sc-01.png?raw=true)
 
 3. After activating "Developer mode" and clicking "Load unpacked" select the repository folder that you downloaded or cloned and you should be all good!
 
@@ -26,7 +26,7 @@ git clone https://github.com/riad-azz/bing-ai-no-limit.git
 
 If your installation was successful you should be able to write with no limitations
 
-![Extension preview image](screenshots/sc-01.png)
+![Extension preview image](https://github.com/riad-azz/readme-storage/blob/main/bing-ai-no-limit/sc-02.png?raw=true)
 
 ## Disclaimer
 
