@@ -12,18 +12,20 @@ async function waitForElement(parent, selector) {
         clearInterval(interval);
         resolve(element);
       }
-    }, 10);
+    }, 500);
   });
 }
 
 const removeLimitation = async () => {
   const mainHost = await waitForElement(document, ".cib-serp-main");
   const mainRoot = mainHost.shadowRoot;
-  const secondHost = await waitForElement(mainRoot, "#cib-action-bar-main");
-  const secondRoot = secondHost.shadowRoot;
-  const searchInput = await waitForElement(secondRoot, "#searchbox");
+  const actionHost = await waitForElement(mainRoot, "#cib-action-bar-main");
+  const actionRoot = actionHost.shadowRoot;
+  const inputHost = await waitForElement(actionRoot, "cib-text-input");
+  const inputRoot = inputHost.shadowRoot;
+  const searchInput = await waitForElement(inputRoot, "#searchbox");
   searchInput.removeAttribute("maxlength");
-  const letterCounter = await waitForElement(secondRoot, ".letter-counter");
+  const letterCounter = await waitForElement(actionRoot, ".letter-counter");
   letterCounter.innerHTML = "Unlimited characters by riad-azz";
   console.log("Character limit was removed.");
 
@@ -36,7 +38,7 @@ const removeLimitation = async () => {
     }
   });
 
-  observer.observe(secondRoot, { childList: true });
+  observer.observe(actionRoot, { childList: true });
 };
 
 removeLimitation();
