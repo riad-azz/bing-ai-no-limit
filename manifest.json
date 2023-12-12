@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Bing AI No Limit",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Remove character limitation from Bing AI search.",
   "permissions": ["activeTab"],
   "action": {
@@ -12,7 +12,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.bing.com/search?*"],
+      "matches": [
+        "https://www.bing.com/search?*",
+        "https://copilot.microsoft.com/*"
+      ],
       "js": ["scripts/content.js"],
       "run_at": "document_idle"
     }
